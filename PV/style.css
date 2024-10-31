@@ -5,3 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: skyblue;
+    color: lavender;
+}
+
+nav{
+    text-align: center;
+}
+
+nav input[type = "text"] {
+    display: inline-block;
+}
