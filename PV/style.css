@@ -10,10 +10,13 @@ body {
     color: lavender;
 }
 
-nav{
+.box {
+    border: 2px solid white;
+    width: 200px;
+    height: 100%;
+    margin: auto;  
+    padding: 20px;
     text-align: center;
 }
 
-nav input[type = "text"] {
-    display: inline-block;
-}
+
