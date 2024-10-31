@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    color: lavender;
+}
+
+.box {
+    border: 2px solid white;
+    width: 200px;
+    height: 100%;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+}
+
+
