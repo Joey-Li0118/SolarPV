@@ -7,8 +7,28 @@
 
 body {
     background-color: skyblue;
+    background-image: url("kawaii-weather-clip-art-bundle-svg-dxf-png-eps-shophannahlou-large-thumbnail-2-d4fc73542357ad0bfbca4b68190986a8e1d5f8d5a5ee7dcde5ac94b7205b3b63.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
     color: lavender;
 }
+
+
+/* Style for the weather box */
+.weather-box {
+    background-color: #2e2e2e;  /* Dark color for the box */
+    color: #ffffff;             /* Light text for contrast */
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 2px solid #444444;  /* Optional border color */
+    max-width: fit-content;
+}
+
+/* Style for the search bar */
+
 
 .box {
     border: 2px solid white;
@@ -19,4 +39,10 @@ body {
     text-align: center;
 }
 
+.search {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 6vh;
+}
 

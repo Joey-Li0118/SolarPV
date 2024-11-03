@@ -9,32 +9,33 @@
 </head>
 <body>
     <div id="header"> 
+        <img src="weather02-512.webp" class="logo" width="100" height="100">
         <div class="search">
-            <img src="weather02-512.webp" class="logo" width="100" height="100">
-                <i class="bx bxs-map"> </i> <!-- creates a single element (location logo) -->
-                <input type="text" placeholder="Enter Your Location">
+                <i class="bx bxs-map bx-sm"> </i> <!-- creates a single element (location logo) -->
+                <div id = "searchbar">
+                    <input type="text" style = "height: 30px; width: 150px;" placeholder="Enter Your Location">
+                    <button class = "bx bx-search bx"></button>
+                </div>
                 <!-- <div id="submit"> <button>Find</button> </div> -->
-                <button type = "submit">Find</button>
-                <button class = "bx bx-search"></button>
         </div>
         <div class="weather-box">
             <div class="box">
                 <div class="conditions">
                     <i class = "bx bx-cloud-rain bx-md"></i>
                     <div class="temperature">
-                        <p>Rain</p>
+                        <p id = "weather-condition">Rain</p>
                     </div>
                     <div class="humidity">
                         <i class = "bx bx-water bx-md"></i>
                         <div class="humidityinfo">
-                            <p>0%</p>
+                            <p id = "humidity-value">0%</p>
                             <p>Humidity</p>
                         </div>
                     </div>
                     <div class="windspeed">
                         <i class = "bx bx-wind bx-md"></i>
                         <div class="windinfo">
-                            <p>0 m/h</p>
+                            <p id = "windspeed-value">0 m/h</p>
                             <p>Windspeed</p>
                         </div>
                     </div>
